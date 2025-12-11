@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+sqlalchemy>=1.4
+asyncpg
+alembic
+fastapi-users[sqlalchemy]
+python-dotenv
+pydantic
+python-multipart
+aiofiles
+streamlit
+imagekitio
+
