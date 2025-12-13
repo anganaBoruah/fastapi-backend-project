@@ -10,7 +10,7 @@ from sqlalchemy.orm import DeclarativeBase, relationship
 from fastapi_users.db import SQLAlchemyUserDatabase, SQLAlchemyBaseUserTableUUID
 from fastapi import Depends
 
-# IMPORTANT: Use Postgres in Docker, not SQLite
+
 DATABASE_URL = os.getenv("DATABASE_URL", "postgresql+asyncpg://postgres:postgres@db:5432/myapp")
 
 class Base(DeclarativeBase):
